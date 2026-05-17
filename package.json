@@ -2,7 +2,7 @@
   "name": "ece2-js-workspace",
   "private": true,
   "scripts": {
-    "devcd": "cd Experiment-7/vite-project && npm run dev",
-    "dev:8": "cd Experiment-7/vite-project && npm run dev"
+    "devcd": "cd Experiment-8/vite-project && npm run dev",
+    "dev:8": "cd Experiment-8/vite-project && npm run dev"
   }
 }
