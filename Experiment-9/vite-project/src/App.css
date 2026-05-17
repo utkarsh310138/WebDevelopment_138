@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.form-container {
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 40px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #22a447;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+.register-btn {
+  background-color: #22a447;
+  color: white;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+  background-color: #1a7d36;
+}
+
+.success {
+  text-align: center;
+  color: #22a447;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.users-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #e8f5e9;
+  border-radius: 5px;
+  border: 1px solid #c8e6c9;
+}
+
+.users-section h3 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.users-section ul {
+  list-style: none;
+}
+
+.users-section li {
+  color: #333;
+  padding: 8px 0;
+  padding-left: 20px;
+  position: relative;
+  font-size: 14px;
+}
+
+.users-section li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #22a447;
+  font-weight: bold;
+}
+
+.hero {
+  display: none;
+}
+
+#center {
+  display: none;
+}
+
+#next-steps {
+  display: none;
+}
+
+#docs {
+  display: none;
+}
+
+#spacer {
+  display: none;
+}
+
+.ticks {
+  display: none;
+}

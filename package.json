@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "devcd": "cd Experiment-8/vite-project && npm run dev",
-    "dev:8": "cd Experiment-8/vite-project && npm run dev"
+    "dev:8": "cd Experiment-8/vite-project && npm run dev",
+    "dev:9": "cd Experiment-9/vite-project && npm run dev"
   }
 }
